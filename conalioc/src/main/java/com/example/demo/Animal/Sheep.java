@@ -11,7 +11,7 @@ public class Sheep implements Animal {
     private int hours;
     private String className;
 
-    public String getClassName() {
+    private String getClassName() {
 
         className = getClass().toString();
         String simpleClassName = className.substring(className.lastIndexOf('.') + 1);

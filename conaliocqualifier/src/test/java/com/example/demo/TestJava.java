@@ -20,7 +20,7 @@ public class TestJava {
     public void testMethod() {
 
 //        System.out.println(farmBusiness.farmText());
-        String result = farmBusiness.farmText();
+       String result = farmBusiness.farmText();
 //
     }
 }

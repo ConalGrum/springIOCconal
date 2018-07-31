@@ -32,11 +32,6 @@ public class Business {
         FarmCoop farmBusiness = new DerryCoop(farms);
 
 
-
-
-
-
-
         //farm buisness 2
         Sheep lamb3 = new Sheep();
         Sheep lamb4 = new Sheep();

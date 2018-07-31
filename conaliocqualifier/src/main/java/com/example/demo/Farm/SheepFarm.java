@@ -12,7 +12,7 @@ public class SheepFarm implements Farm {
 
     private int woolCount = 0;
     private List<Animal> animals;
-
+    private String className;
 
     public SheepFarm(@Qualifier("Sheep") List<Animal> animals) {
 
@@ -22,13 +22,14 @@ public class SheepFarm implements Farm {
 
     }
 
-    public String getClassName() {
-        String className;
+    private String getClassName() {
         className = getClass().toString();
-        return className.substring(className.lastIndexOf('.') + 1);
+        String simpleClassName = className.substring(className.lastIndexOf('.') + 1);
+        className = simpleClassName;
+        return simpleClassName;
     }
 
-    public int getWool() {
+    private int getWool() {
 
         for (int i = 0; i < animals.size(); i++) {
 

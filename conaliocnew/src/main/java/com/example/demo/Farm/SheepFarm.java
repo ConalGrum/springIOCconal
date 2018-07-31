@@ -19,7 +19,7 @@ public class SheepFarm implements Farm {
 
     }
 
-    public String getClassName() {
+    private String getClassName() {
 
         className = getClass().toString();
         String simpleClassName = className.substring(className.lastIndexOf('.') + 1);

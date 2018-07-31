@@ -23,7 +23,7 @@ public class PigFarm implements Farm {
 
     }
 
-    public String getClassName() {
+    private String getClassName() {
 
         className = getClass().toString();
         String simpleClassName = className.substring(className.lastIndexOf('.') + 1);
@@ -31,7 +31,7 @@ public class PigFarm implements Farm {
         return simpleClassName;
     }
 
-    public int getBacon() {
+    private int getBacon() {
 
         for (int i = 0; i < animals.size(); i++) {
 
