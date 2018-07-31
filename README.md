@@ -1,6 +1,6 @@
 # springIOCconal
 
-# springIOCconal consits of 3 applications (java spring) with a farm theme that demonstrate the use of the spring IOC.
+# springIOCconal consits of 3 applications (java spring) with a farm theme that demonstrate the use of the spring Inversion of Control (IOC).
 
 # 1) iocnew 
 implements a farm business in a tradional java way where the main class 'New'up class instances etc.
